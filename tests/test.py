@@ -1,3 +1,5 @@
+import file.create  # 引入其他文件夹下面的文件
+
 print("hello world")
 
 # 注释:list是数组
@@ -11,3 +13,6 @@ print("this list is {list},and len is {len}".format(list=list, len=len(list)))
 doc = '你好'
 execpt = '你好'
 print(doc, execpt)
+
+# 调用其他文件夹中的函数
+file.create.CreateWithSafe("file1")
