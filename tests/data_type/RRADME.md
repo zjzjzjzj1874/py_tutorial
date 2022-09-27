@@ -1,0 +1,23 @@
+- Python数据类型
+    - 文本类型
+        - str - 字符串类型
+    - 数值类型
+        - int - 整型 `1`
+        - float - 浮点型 `1.1`
+        - complex - 复数 `1 + 2j`
+    - 序列类型
+        - list - 列表，数组
+        - tuple - 元组 `只能首次赋值，后面不能修改数组值`
+        - range - `range(start,stop[, step])`函数，创建一个整数序列
+    - 映射类型
+        - dict - `字典，对应其他语言的hash或者map类型`
+    - 集合类型
+        - set `python3的数据类型，是无序不重复的元素序列`
+        - frozenset `冻结的集合，初始化后不能再新增或者删除元素了`
+    - 布尔类型
+        - bool
+    - 二进制类型
+        - bytes
+        - bytearray
+        - memoryview
+- 函数`type()`获取任何对象的数据类型
