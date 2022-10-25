@@ -8,6 +8,6 @@ print("this list is {list},and len is {len}".format(list=list, len=len(list)))
 # https://www.cnblogs.com/fat39/p/7159881.html => 百分号和format对比
 
 
-with = '你好'
+doc = '你好'
 execpt = '你好'
-print(exec,execpt)
+print(doc, execpt)
