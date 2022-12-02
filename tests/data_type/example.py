@@ -1,3 +1,5 @@
+import random
+
 # int类型
 x = 1
 print(type(x))
@@ -96,3 +98,29 @@ print(type(x))
 x = bytearray([1, 2, 3])
 print(x[0])
 print(x)
+
+# region 类型强转 casting
+x = 1.7
+print(x)
+print(type(x))
+
+x = int(x)  # 注意:强转不会进行四舍五入,直接会truncate后面的
+print(x)
+print(type(x))
+
+x = str("s2")
+# endregion 类型强转
+
+
+# region 随机数
+x = random.random()
+print("random x = ", x)
+print("random x = ", type(x))
+
+x = random.randint(0, 100)
+print("random x = ", x)
+
+random.randrange(0, 1000)
+print("random x = ", x)
+
+# endregion 随机数
