@@ -7,7 +7,7 @@ import pymysql
 """
     mysql连接测试
 """
-# myslq配置
+# mysql配置
 MYSQL_HOST = "localhost"
 MYSQL_USERNAME = "root"
 MYSQL_PASSWORD = "admin123"
